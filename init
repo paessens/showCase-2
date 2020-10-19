@@ -1,6 +1,10 @@
-
 # just a quick first test
 
+# initialise in tools/global-options ...
+# create ssh keys & copy public key
+# make this key known in gitub settings
+
+# in RStudio
 install.packages("renv")
 renv::activate()
 renv::consent()
@@ -8,4 +12,11 @@ install.packages("ggplot2")
 install.packages("tint")
 
 # create RMD Tufte-html
-# commit & push
+# commit & do not push yet !!
+
+# in a terminal window
+# git remote -v
+# git remote set-url origin git@hostname:USERNAME/REPOSITORY.git
+# that would be here:
+
+git remote set-url origin 
