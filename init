@@ -1,0 +1,11 @@
+
+# just a quick first test
+
+install.packages("renv")
+renv::activate()
+renv::consent()
+install.packages("ggplot2")
+install.packages("tint")
+
+# create RMD Tufte-html
+# commit & push
